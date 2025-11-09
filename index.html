@@ -13,8 +13,8 @@
 
   <style>
     :root{
-      --brand:#1b5e20;
-      --accent:#2e7d32;
+      --brand:#0d47a1;
+      --accent:#1976d2;
       --card-radius:16px;
       --glass: rgba(255,255,255,0.85);
     }
@@ -191,17 +191,46 @@
 </section>
 
 
-  <!-- SUBSCRIBE -->
-  <section class="container my-5" id="subscribe">
-    <div class="p-4 rounded-4 shadow-sm" style="background:var(--glass);">
-      <h4>Subscribe for Arduino Deals</h4>
-      <p class="text-muted">Get updates on new kits, sensors, and electronics directly in your inbox.</p>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="d-flex gap-2 flex-wrap">
-        <input name="email" type="email" placeholder="Email anda" class="form-control" required>
-        <button class="btn btn-success" type="submit">Subscribe</button>
-      </form>
+ <!-- FEATURED PROJECTS -->
+<section class="container my-5" id="projects">
+  <div class="p-4 rounded-4 shadow-sm" style="background:var(--glass);">
+    <h3>Featured Projects</h3>
+    <div class="row g-4 mt-3">
+      
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">LED Blinking with Arduino</h5>
+            <p class="card-text">Learn how to blink an LED using simple Arduino code — perfect for beginners to understand digital output.</p>
+            <a href="#" class="btn btn-sm btn-primary">Watch Tutorial</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Push Button Control</h5>
+            <p class="card-text">Control an LED using a push button and learn how Arduino reads digital inputs from external components.</p>
+            <a href="#" class="btn btn-sm btn-primary">Watch Tutorial</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Temperature Sensor</h5>
+            <p class="card-text">Discover how to measure temperature using an Arduino and display the data in real time.</p>
+            <a href="#" class="btn btn-sm btn-primary">Watch Tutorial</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- FOOTER -->
   <footer>
